@@ -13,7 +13,5 @@ public class BarcodeScanner {
 		return scanner.next();
 	}
 
-	public static void consoleMessage(String message) {
-		System.out.println(message);
-	}
+
 }
