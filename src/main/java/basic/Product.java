@@ -3,6 +3,7 @@ package basic;
 import java.math.BigDecimal;
 
 public class Product {
+
     private Long id;
     private String name;
     private String barcode;
@@ -30,4 +31,17 @@ public class Product {
     public BigDecimal getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+       // return "Product [id=" + id + ", name=" + name + ", barcode=" + barcode + ", price= %.2f %n" + decmaltostring(price) + "]";
+        return "Product name: "+name+'\n'+"Price:"+ price;
+    }
+
+
+
+
+
+
+
 }
